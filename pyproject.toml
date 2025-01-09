@@ -1,0 +1,23 @@
+[build-system]
+requires = ['hatchling']
+build-backend = 'hatchling.build'
+
+[project]
+name = "giesscheduler"
+version = "0.1.0"
+description = "Finds valid MBA schedules for students at Gies."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Brandon Schabell", email = "brandonschabell@gmail.com"}
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/brandonschabell/giesscheduler"
+Repository = "https://github.com/brandonschabell/giesscheduler"
+Issues = "https://github.com/brandonschabell/giesscheduler/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["giesscheduler"]

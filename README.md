@@ -1,7 +1,7 @@
 # GiesScheduler
  
 ## Installation
-`giesscheduler` requires `python>=3.10`.
+`giesscheduler` requires `python>=3.12`.
 
 To use this script, please clone the repository.
 

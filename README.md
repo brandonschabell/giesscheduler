@@ -5,7 +5,7 @@
 
 To use this script, please clone the repository.
 
-If you are using `uv`, you do not need to install anything. If you are not, you may need to install `giesscheduler with:
+If you are using `uv`, you do not need to install anything. If you are not, you may need to install `giesscheduler` with:
 ```bash
 pip install -e .
 ```
